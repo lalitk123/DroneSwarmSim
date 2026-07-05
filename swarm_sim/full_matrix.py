@@ -42,7 +42,7 @@ BASE = SimConfig(n_drones=10, n_victims=15, max_steps=600, seed=100)
 HARD = dict(width=100, height=100, n_obstacles=160, obstacle_clusters=20,
             n_victims=30, n_drones=12, sensing_radius=3.0, comm_radius=15.0,
             max_steps=800, seed=200)
-NODE_FAILURE_STEP = 30   # fires mid-search (full-fleet convergence ~step 395)
+NODE_FAILURE_STEP = 150   # fires mid-search (t=150; full-fleet convergence ~step 395)
 
 
 def _dead_zones(area_fraction, cfg):
