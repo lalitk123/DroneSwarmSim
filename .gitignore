@@ -3,3 +3,10 @@ __pycache__/
 .DS_Store
 paper/
 paper_ieee/
+
+# Generated knowledge-graph artifacts
+graphify-out/
+
+# Unfiled provisional patent draft — keep out of the repo so a future
+# public/Pages flip cannot become an inadvertent public disclosure.
+patent/
